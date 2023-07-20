@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header {
+  border: solid pink;
+}
+.search {
+  width: 40%;
+  padding-top: 20vh;
+  display: flex;
+}
+
+.gallery {
+  border: solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.gallery .first{
+  width: 150px;
+  cursor: pointer;
+}
+
+.gallery .first img {
+  width: 40%;
 }
